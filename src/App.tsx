@@ -1,10 +1,10 @@
-import { PerformanceApp } from "./components/PerformanceApp";
+import { SignupForm } from "./components/SignupForm";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <PerformanceApp />
+      <SignupForm />
     </>
   );
 }
