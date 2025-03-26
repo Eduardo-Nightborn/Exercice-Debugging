@@ -1,12 +1,10 @@
-
-import { ProductList } from "./components/ProductList/ConditionalRenderBug";
+import { Counter } from "./components/Counter/StateBug";
 import "./App.css";
 
 function App() {
-
   return (
     <>
-      <ProductList />
+      <Counter />
     </>
   );
 }
