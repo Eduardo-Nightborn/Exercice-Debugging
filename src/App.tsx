@@ -1,10 +1,10 @@
-import { UserDashboard } from "./components/userDashboard";
+import { PerformanceApp } from "./components/PerformanceApp";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <UserDashboard />
+      <PerformanceApp />
     </>
   );
 }
