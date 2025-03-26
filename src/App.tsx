@@ -1,10 +1,10 @@
-import { NestedButtons } from "./components/NestedButton";
+import { UserDashboard } from "./components/userDashboard";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <NestedButtons />
+      <UserDashboard />
     </>
   );
 }
