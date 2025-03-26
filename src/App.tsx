@@ -1,13 +1,12 @@
-import { useState } from "react";
-import { UserProfile } from "./components/UserProfile";
+
+import { ProductList } from "./components/ProductList/ConditionalRenderBug";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
-      <UserProfile />
+      <ProductList />
     </>
   );
 }
