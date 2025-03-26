@@ -1,10 +1,10 @@
-import { Counter } from "./components/Counter/StateBug";
+import { NestedButtons } from "./components/NestedButton";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Counter />
+      <NestedButtons />
     </>
   );
 }
