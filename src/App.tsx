@@ -1,10 +1,10 @@
-import { TodoList } from "./components/ToDoList";
+import { CounterApp } from "./components/CounterApp";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <TodoList />
+      <CounterApp />
     </>
   );
 }
