@@ -1,10 +1,10 @@
-import { ThemedApp } from "./components/ThemeApp";
+import { TodoList } from "./components/ToDoList";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <ThemedApp />
+      <TodoList />
     </>
   );
 }
