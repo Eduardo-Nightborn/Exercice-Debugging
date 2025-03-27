@@ -1,10 +1,10 @@
-import { SignupForm } from "./components/SignupForm";
+import { ThemedApp } from "./components/ThemeApp";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <SignupForm />
+      <ThemedApp />
     </>
   );
 }
